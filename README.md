@@ -1,5 +1,7 @@
 #Control HomeEasy/Chacon/Byebyestandby devices
 
+Forked to match "my" nexa timing better, and to give me ability to messa around. Thanks Nenad Bogojevic.
+
 This tool can switch on and off the remote-controlled plugs using HomeEasy protocol.
 
 More information about protocol can be found at:

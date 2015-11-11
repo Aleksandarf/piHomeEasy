@@ -66,7 +66,7 @@ void send(int pin, int emitter, int receiver, bool turnOn)
   digitalWrite(pin, HIGH);
   delayMicroseconds(275);     // bit of radio shouting before we start. 
   digitalWrite(pin, LOW);
-  delayMicroseconds(9900);     // low for 9900 for latch 1
+  delayMicroseconds(10300);     // low for 9900 for latch 1
   digitalWrite(pin, HIGH);   // high  
   delayMicroseconds(275);    // wait a moment 275µs
   digitalWrite(pin, LOW);    // low again for 2675µs - latch
